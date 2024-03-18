@@ -293,7 +293,7 @@ html{
 .rsmbtn:hover{
 	background-color: white;
 	color: royalblue;
-	border: 3px solid royalblue;
+	border: 3px solid royalblue	;
 	transform: scale(1.1);
 }
 
@@ -307,7 +307,7 @@ html{
 
 
 .about-section {
-	height: 600px;
+	height: 550px;
 	width: 100%;
 	background-color: whitesmoke;
 }
@@ -338,6 +338,7 @@ html{
 	animation-name: zoom;
 	animation-iteration-count: 1;
 
+
 }
 
 .heading{
@@ -360,6 +361,7 @@ html{
 	text-indent: 100px;
 	word-spacing: 7px;
 	letter-spacing: 1px;
+	box-shadow: 15px 15px 5px gray;
 }
 
 /* Facebook */
@@ -451,6 +453,7 @@ html{
 	height: 700px;
 	width: 100%;
 	padding: 10px;
+	background-color: whitesmoke;
 }
 
 .heading{
@@ -473,6 +476,14 @@ html{
 	font-family: sans-serif;
 	font-weight: bolder;
 }
+.card{
+	box-shadow: 7px 7px 7px grey;
+	border-radius: 40px;
+}
+
+.card-img-top{
+	border-radius: 40px;
+}
 
 .card-title:hover{
 	text-decoration: underline 2px solid orangered;
@@ -481,47 +492,54 @@ html{
 
 }
 
-#contact{
-	height: 500px;
-	width: 100%;
-	background-color: whitesmoke;
-	padding: 20px;
-}
-.main-container{
-	height: 400px;
-	width: 80%;
-	display: flex;
-	margin-left: 10%;
-}
 
+.contact-chil{
+	background-color: lightgray ;
+	 height: 400px;
+    width: 50%;
+}
 .contact-child{
-	height: 400px;
-	width: 50%;
-
+		background-color: lightgray ;
+	 height: 400px;
+    width: 50%;
 }
 
-.contact-info{
-	font-size: 18px;
-	font-family: sans-serif;
-	font-weight: bolder;
-	margin-top: 70px;
-
+.main-comtainer {
+    height: 400px;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
 }
 
-.contact-info li{
-	margin-top: 20px;
+.contact-child {
+    height: 400px;
+    width: 50%;
 }
 
-.contact-form{
-	padding: 15px;
-	padding-left: 70px;
-	margin-top: 50px;
+.contact-info {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 70px;
 }
+
+.contact-info li {
+    margin-top: 20px;
+}
+
+.contact-form {
+    padding: 15px;
+    padding-left: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+
 #footer{
 	height: 50px;
 	width: 100%;
 	background-color: royalblue;
 	text-align: center;
+	margin-top: 160px;
 }
 
 #footer-info{
@@ -529,3 +547,4 @@ html{
 	line-height: 50px;
 	color: white;
 }
+
