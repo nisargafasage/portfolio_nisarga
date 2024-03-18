@@ -1,11 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Nisarga</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UPod40ImlxNSwSll0UxFbQXWSL9NcAEgnF9sYl2egfHY7zt2nj_nt9O2MHSXlGi3F88&usqp=CAU">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Nisarga Portfolio</title>
 </head>
 <body>
-	<h1>Nisarga Fasage</h1>
+    <!-- div starts from here -->
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><span class="brand rotate-center tracking-in-expand flip-scale-down-hor">Nisarga</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home"><span class="navmenu">Home</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#projects"><span class="navmenu">Projects</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contacts"><span class="navmenu">Contacts</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- div ends here -->
+    <!-- section start from here -->
+    <div class="section-cont">
+        <section class="portfolio-section" id="home">
+            <div id="home-info">
+                <span class="info hi">Hi,</span><br/>
+                <span class="info">My name is</span>
+                <span class="brand myname">Nisarga</span><br/>
+                <span class="info">I am<span class="designation"> Full stack Developer </span></span></br>
+                <button class="rsmbtn">RESUME</button><br/>
+                <a href="https://www.linkedin.com/in/nisarga-fasage" class="fa fa-linkedin linkdin"></a>
+                <a href="#" class="fa fa-twitter twitter"></a>
+                <a href="https://github.com/nisargafasage" class="fa fa-github github"></a>
+            </div>
+        </section>
+        <section class="portfolio-section about-section" id="about">
+            <div class="aboutmain">
+                <div class="myimage">
+                    <img class="minion kenburns-button" src="https://cdni.iconscout.com/illustration/premium/thumb/woman-programmer-working-on-a-new-project-7771248-6200254.png?f=webp">
+                </div>
+                <div class="carrerobj">
+                    <h1 class="heading">ABOUT</h1>
+                    <p class="carrerinfo">
+                        A believer in excellence, I am eager to learn new skills, to be efficient and productive for the company’s growth, and to broaden my professional skill set. I’m looking forward to working as a software engineer in a multinational corporation and meeting worldwide clientele.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section skills-section" id="skills">
+            <h1 class="heading">SKILLS</h1>
+            <table class="tbl" height="450" width="90%" cellspacing="50px">
+                <tr align="center" valign="top">
+                    <div class="borderskills">
+                        <td width="50%" data-aos="slide-right" >
+                            <h2 class="skills-subheading">Languages</h2>
+                            <p class="detailedSkills">
+                                Core Java, HTML, CSS, SQL
+                            </p>
+                        </td>
+                    </div>
+                    <div class="borderskills">
+                        <td width="50%" data-aos="slide-left">
+                            <h2 class="skills-subheading">API's & Frameworkd</h2>
+                            <p class="detailedSkills">
+                                Collections, Rest API
+                            </p>
+                        </td>
+                    </div>
+                </tr>
+                <tr align="center" valign="top">
+                    <div class="borderskills">
+                        <td data-aos="slide-right">
+                            <h2 class="skills-subheading">Tools</h2>
+                            <p class="detailedSkills">
+                                VS Code, GitHub, MySQL, IntelliJ
+                            </p>
+                        </td>
+                    </div>
+                    <div class="borderskills">
+                        <td data-aos="slide-left">
+                            <h2 class="skills-subheading">Operating Systems</h2>
+                            <p class="detailedSkills">
+                                Windows, Android, iOS
+                            </p>
+                        </td>
+                    </div>
+                </tr>
+            </table>
+        </section>
+        <section class="portfolio-section" id="projects">
+            <h1>PROJECTS</h1>
+            <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+        </section>
+        <section class="portfolio-section" id="contacts">
+            <h1>CONTACTS</h1>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+            	duration: 2000
+            });
+        </script>
 </body>
 </html>
+
