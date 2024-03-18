@@ -14,7 +14,7 @@
 	position: fixed;*{
 	padding: 0;
 	margin: 0;
-	
+
 }
 .portfolio-section{
 	height: 400px;
@@ -386,7 +386,7 @@ html{
 }
 
 #skills{
-	height: 700px;
+	height: 650px;
 	width: 100%;
 	background-color: whitesmoke;
 
@@ -447,3 +447,85 @@ html{
     }
 }
 
+#project{
+	height: 700px;
+	width: 100%;
+	padding: 10px;
+}
+
+.heading{
+	color: royalblue;
+	font-family: Arial Black;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 35px;
+}
+
+.project-card-container{
+	padding: 20px;
+	margin-top: 20px;
+
+}
+
+.card-title{
+	color: orangered;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
+.card-title:hover{
+	text-decoration: underline 2px solid orangered;
+	text-underline-offset: 5px;
+	cursor: pointer;
+
+}
+
+#contact{
+	height: 500px;
+	width: 100%;
+	background-color: whitesmoke;
+	padding: 20px;
+}
+.main-container{
+	height: 400px;
+	width: 80%;
+	display: flex;
+	margin-left: 10%;
+}
+
+.contact-child{
+	height: 400px;
+	width: 50%;
+
+}
+
+.contact-info{
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin-top: 70px;
+
+}
+
+.contact-info li{
+	margin-top: 20px;
+}
+
+.contact-form{
+	padding: 15px;
+	padding-left: 70px;
+	margin-top: 50px;
+}
+#footer{
+	height: 50px;
+	width: 100%;
+	background-color: royalblue;
+	text-align: center;
+}
+
+#footer-info{
+	font-size: 20px;
+	line-height: 50px;
+	color: white;
+}
