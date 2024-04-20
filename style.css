@@ -309,7 +309,8 @@ html{
 .about-section {
 	height: 550px;
 	width: 100%;
-	background-color: whitesmoke;
+/*	background-color: whitesmoke;*/
+background-color: #333;
 }
 
 .aboutmain {
@@ -322,6 +323,7 @@ html{
 	font-size: 25px;
 	font-family: sans-serif;
 	font-weight: bolder;
+	color: white;
 	}
 
 .myimage {
@@ -361,7 +363,7 @@ html{
 	text-indent: 100px;
 	word-spacing: 7px;
 	letter-spacing: 1px;
-	box-shadow: 15px 15px 5px gray;
+	box-shadow: 10px 10px 5px gray;
 }
 
 /* Facebook */
@@ -390,7 +392,8 @@ html{
 #skills{
 	height: 650px;
 	width: 100%;
-	background-color: whitesmoke;
+/*	background-color: whitesmoke;*/
+background-color: #333;
 
 }
 
@@ -426,16 +429,16 @@ html{
 .tbl tr td:hover {
 	transform: scale(1.05);
 	border: 1px solid grey;
-	box-shadow: 10px 15px 10px darkgray;
+	box-shadow: 10px 10px 10px darkgray;
 	border-radius: 10px;
 }
 
 .skills-subheading {
-    animation: slideIn 1s ease; /* Apply animation to skills headings */
+    animation: slideIn 1s ease; 
 }
 
 .detailedSkills {
-    animation: slideIn 1s ease; /* Apply animation to detailed skills */
+    animation: slideIn 1s ease; 
 }
 
 @keyframes slideIn {
@@ -450,10 +453,12 @@ html{
 }
 
 #project{
-	height: 700px;
+	height: 900px;
 	width: 100%;
 	padding: 10px;
-	background-color: whitesmoke;
+	margin-top: -40px;
+/*	background-color: whitesmoke;*/
+background-color: #333;
 }
 
 .heading{
@@ -465,9 +470,12 @@ html{
 }
 
 .project-card-container{
-	padding: 20px;
-	margin-top: 20px;
+	padding: 30px;
+	margin-top: 30px;
 
+}
+.col{
+	padding: 20px;
 }
 
 .card-title{
@@ -482,7 +490,7 @@ html{
 }
 
 .card-img-top{
-	border-radius: 40px;
+	border-radius: 30px;
 }
 
 .card-title:hover{
@@ -511,6 +519,10 @@ html{
     margin-left: 5%;
 }
 
+#contacts{
+	background-color: #333;
+	height: 700px;
+}
 .contact-child {
     height: 400px;
     width: 50%;
@@ -539,7 +551,7 @@ html{
 	width: 100%;
 	background-color: royalblue;
 	text-align: center;
-	margin-top: 160px;
+/*	margin-top: 160px;*/
 }
 
 #footer-info{
